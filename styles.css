@@ -1,0 +1,158 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: azure;
+}
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+#press {
+    background-color: #ef8172;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: azure;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 2% 15% 7%;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: azure;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.btn-p {
+    width: 100%;
+}
+
+
+.col-feature {
+    padding: 5%;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.crd {
+    margin: 7% 20px;
+}
+
+.crd-b{
+    padding: 10% 10%;
+}
+
+.download-button {
+    margin: 2% 0.4% 3%;
+}
+
+.footer-link {
+    padding: 2% 0.6%;
+    color: black;
+}
+
+.key-head {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.key-point {
+    color: #8f8f8f;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-items {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px;
+}
+
+.pricing-amt{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.sym-feature {
+    color: #ef8172;
+    font-size: 4rem;
+    padding-bottom: 5%;
+}
+
+.sym-feature:hover {
+    color: #ff4c68;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-weight: 600;
+    font-size: 3rem;
+}
+.title-image {
+    width: 17%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 28%;
+}
+
+@media (max-width:1000px) {
+    .title-image {
+        width: 50%;
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #testimonials {
+        font-size: small;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    html {
+        zoom: 1;
+    }
+
+}
